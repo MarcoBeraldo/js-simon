@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#countdown {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#numbers-list {
+    display: flex;
+    list-style-type: none;
+    font-size: 3rem;
+}
+
+#numbers-list li {
+    margin: 50px 30px;
+}
+
+#solution-inputs {
+    display: flex;
+}
+
+.solution-inputs input {
+    margin: 50px, 30px;
+}
